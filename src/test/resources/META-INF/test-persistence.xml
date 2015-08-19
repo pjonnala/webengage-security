@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<!--
+ test persistence for junit
+-->
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+    <persistence-unit name="testPU" transaction-type="RESOURCE_LOCAL">
+        <class>com.webengage.hrms.model.Employee</class>
+        <properties>
+             <property name="hibernate.show_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>

@@ -1,0 +1,138 @@
+@CHARSET "ISO-8859-1";
+input
+{
+  -moz-border-radius: 10px;
+ border-radius: 5px;
+    border:solid 1px black; 
+    padding:10px;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+input[type="text"] {
+     font-size: 1.5em;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1em;
+    color: #363636;
+}
+#mainContainer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 100px;
+    padding: 0 20px 10px 20px;
+    border-top: 5px solid #000000;
+    border-left: 5px solid #8c8f91;
+    border-right: 5px solid #8c8f91;
+    border-bottom: 25px solid #8c8f91;
+    width: 1200px; /* subtract 40px from banner width for padding */
+    background: #FFFFFF;
+    background-image: url(../images/headerbkg.png);
+    background-repeat: repeat-x;
+    padding-top: 30px;
+    box-shadow: 3px 3px 15px #d5d5d5;
+}
+
+#searchResults {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 100px;
+    
+}
+
+/*  -----  table style  -------  */
+
+/*  = Simple Table style (black header, grey/white stripes  */
+
+.simpletablestyle {
+    background-color: #E6E7E8;
+    clear: both;
+    width: 800px;
+}
+
+.simpletablestyle img {
+    border: 0px;
+}
+
+.simpletablestyle td {
+    height: 2em;
+    padding-left: 6px;
+    font-size: 11px;
+    padding: 5px 5px;
+}
+
+.simpletablestyle th {
+    background: url(../images/bkg-blkheader.png) black repeat-x top left;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0 10px 0 5px;
+    border-bottom: #999999 dotted 1px;
+}
+
+.simpletablestyle thead {
+    background: url(../images/bkg-blkheader.png) black repeat-x top left;
+    height: 31px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.simpletablestyle .header a {
+    color: #94aebd;
+}
+
+.simpletablestype tfoot {
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #EAECEE;
+    text-align: center;
+}
+
+.simpletablestyle tr.header td {
+    padding: 0px 10px 0px 5px;
+}
+
+.simpletablestyle .subheader {
+    background-color: #e6e7e8;
+    font-size: 10px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+}
+
+/* Using new CSS3 selectors for styling*/
+.simpletablestyle tr:nth-child(odd) {
+    background: #f4f3f3;
+}
+
+.simpletablestyle tr:nth-child(even) {
+    background: #ffffff;
+}
+
+.simpletablestyle td a:hover {
+    color: #3883ce;
+    text-decoration: none;
+}
+
+.errorblock{
+	color: #000;
+	background-color: #ffEEEE;
+	border: 3px solid #ff0000;
+	padding:8px;
+	margin:16px;
+}
+
+h2 {
+    font-size: 1em;
+}
